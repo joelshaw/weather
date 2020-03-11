@@ -1,0 +1,22 @@
+@import '../styles/colors';
+
+#temps {
+    .temps-current {
+        background: $dark-blue;
+        font-size: 3em;
+        border-radius: 100%;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        font-weight: bold;
+        left: 3em;
+        top: 4em;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            color: $white;
+        }
+    }
+}
