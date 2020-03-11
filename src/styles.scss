@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '../src/app/styles/colors';
+@import '../src/app/styles/type';
 
 body {
     background: $white;
+    font-family: $font-primary;
 }
